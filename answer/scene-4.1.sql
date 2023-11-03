@@ -1,0 +1,10 @@
+DROP TRIGGER IF EXISTS LogOrderChange;
+DELIMITER //
+CREATE TRIGGER LogOrderChange
+AFTER UPDATE ON ProductOrder
+FOR EACH ROW
+BEGIN
+	-- 你的触发器操作
+END;
+//
+DELIMITER ;

@@ -1,0 +1,10 @@
+DROP TRIGGER IF EXISTS RefundAtCancel;
+DELIMITER //
+CREATE TRIGGER RefundAtCancel
+AFTER DELETE ON ProductOrder
+FOR EACH ROW
+BEGIN
+	-- 填写你的触发器操作
+END;
+//
+DELIMITER ;
