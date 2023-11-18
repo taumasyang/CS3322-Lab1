@@ -1,2 +1,2 @@
--- 填写建立索引的语句
--- 最多两个索引， 最后会检查索引数量
+CREATE INDEX sort_by_date ON ProductOrder (create_date);
+CREATE INDEX sort_by_name ON ProductOrder (customer_id, product_id);
