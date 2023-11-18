@@ -1,1 +1,1 @@
--- 1 条语句：授予 Alice 权限
+GRANT SELECT ON OrderAudit TO 'Alice'@'localhost';
